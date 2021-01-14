@@ -1,9 +1,9 @@
 #     __  ___
-#    /  |/  /___ _____  ____  ___  _____
-#   / /|_/ / __ `/ __ \/ __ \/ _ \/ ___/
-#  / /  / / /_/ / /_/ / /_/ /  __/ /
+#    /  |/  /___ _____  ____  ___  _____        This is designed to be run at the discretion of the fulfillment analyst. Jira is queried and mapping field
+#   / /|_/ / __ `/ __ \/ __ \/ _ \/ ___/        is updated so that the auto-verification tool can run and automatically progress tickets to a closed
+#  / /  / / /_/ / /_/ / /_/ /  __/ /            status.
 # /_/  /_/\__,_/ .___/ .___/\___/_/
-#             /_/   /_/
+#             /_/   /_/                         Written by Caleb Moore
 
 from jira.client import JIRA  # --> installed with `pip install jira` in the terminal
 import re  # Regex component
@@ -24,7 +24,7 @@ legacy_id = []
 
 print('Pin Tickets Updated: \n')
 
-# Loop that pulls original id map, subs in (788) and then updates the field
+# Loop that pulls original id map, subs in (788) using regex and then updates the field
 for issue in issues_in_proj:
     print('Strategy Ticket: https://jira.server.com/browse/' + str(issue))
     print('Original Mapping: ' + issue.fields.customfield_11502)
