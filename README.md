@@ -16,4 +16,4 @@ Over the course of the day, up to an hour can be spent manually updating these f
 
 #### Future improvements 
 
-This is currently run on an "ad-hoc" basis, at the discretion of the analyst. It would be great to find a way to set this on a cadence, potentially implement a CRON job or integrate with Active Batch scheduler.
+This is currently run on an "ad-hoc" basis, at the discretion of the analyst. It would be great to find a way to set this on a cadence, potentially implement a cron job or integrate with Active Batch scheduler.
