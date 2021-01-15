@@ -1,0 +1,25 @@
+Pin Tickets Updated: 
+
+Strategy Ticket: https://jira.oracledatacloud.com/browse/CAM-12345
+Original Mapping: 5812275(),5812276(),5812274()
+Updated Mapping: 5812275(788),5812276(788),5812274(788)
+Added av.mapped label to ticket
+
+Strategy Ticket: https://jira.oracledatacloud.com/browse/CAM-34567
+Original Mapping: 5813982()
+Updated Mapping: 5813982(788)
+Added av.mapped label to ticket
+
+Strategy Ticket: https://jira.oracledatacloud.com/browse/CAM-45678
+Original Mapping: 4758449(),4758452(),4758450(),4758453(),4758455(),4758451(),4758454()
+Updated Mapping: 4758449(788),4758452(788),4758450(788),4758453(788),4758455(788),4758451(788),4758454(788)
+Added av.mapped label to ticket
+
+Strategy Ticket: https://jira.oracledatacloud.com/browse/CAM-56789
+Original Mapping: 5812349(),5812345(),5812347(),5812350(),5812348(),5812346()
+Updated Mapping: 5812349(788),5812345(788),5812347(788),5812350(788),5812348(788),5812346(788)
+Added av.mapped label to ticket
+
+You have updated the mapping on 4 Pin tickets
+
+Process finished with exit code 0
